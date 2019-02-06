@@ -1,17 +1,21 @@
-﻿*{
-          box-sizing:border-box;
+﻿*{   box-sizing:border-box;
          }
+         body{padding-left:100px;
+                padding-right:100px;
+                
+             }
           header {
               width:100%;
-
+              background-image:url(../../header.jpg);
+              margin-bottom: -20px;
+              border:1px solid black; 
           }
 
          ul {
              background-color:black;
              overflow: hidden;
              list-style-type: none;
-             padding:10px;
-
+            margin-top: 0;
              color:white;
              float:left;
              width:100%;
@@ -48,11 +52,14 @@
         h2 {
             float:right;
         }
+        h1,h3 {color:white;}
         .footer {
             width:100%;
-       
+            border:1px solid black;
             font-size:18px;
             padding: 10px;
             float:left;
             text-align:center;
         }
+.row { border-left:1px solid black;
+        border-right:1px solid black;}
